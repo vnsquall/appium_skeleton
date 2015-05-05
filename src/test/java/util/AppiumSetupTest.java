@@ -31,8 +31,6 @@ public class AppiumSetupTest {
         if (driver != null) driver.quit();
     }
 
-
-
     public void init() throws MalformedURLException {
         DesiredCapabilities capabilities = getAndroid4_4_capabilities();
         URL serverAddress = new URL(SERVER_ADDRESS);
